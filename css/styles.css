@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+        width: 1600px;
+        height: 2350px;
+}
+
+/* top-line */
+
+.top-line {
+    background-color: #ECECEC;
+    margin: 1600p;
+}
+.logo_header {
+    color: #2196F3;
+    }
+
+
+.list_item {
+    color: #2196F3;
+}
+
+
+/* main */
+
+.header_content {
+    background-color: #2F303A;
+    color: #FFFFFF;
+
+}
+
+.features {
+
+}
+
+.work {
+
+}
+
+.team {
+
+}
+
+.contact {
+
+}
