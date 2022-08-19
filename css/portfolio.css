@@ -2,27 +2,19 @@ body {
     font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
         position: relative;
-        margin: auto;
-        width: 1600px;
-        height: 2350px;
+       
 }
 
 /* top-line */
 
 .top-line {
     background-color: #ECECEC;
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-
     background: #FFFFFF;
 }
 
-.logo_header {
-    font-family: 'Raleway';
-    font-style: normal;
+.logo .logo_header {
+    
+    
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -58,11 +50,27 @@ body {
     color: #FFFFFF;
 }
 
-.button-list .button {
+.button {
     background-color: #F5F4FA;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
 }
 
+.button1 {
+    background-color: #2196F3;
 
+}
+
+.button1:hover {
+    background-color: #188ce8;
+}
 
 .contact {
     background-color: #2F303A;
