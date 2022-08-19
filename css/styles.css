@@ -59,13 +59,14 @@ body {
 }
 
 .list_item {
-    color: #2196F3;
+    color: #2196F3;    
 }
+
 
 
 /* main */
 
-.header {
+.hero {
     background-color: #2F303A;
     color: #FFFFFF;
     width: 1600px;
@@ -74,10 +75,18 @@ body {
     top: 80px;
     text-align: center;
     padding-top: 200px;
-            
+      }
 
+.button {
+        background-color: #2196f3
 }
 
+.button:hover {
+    background-color: #188ce8;
+}
+.text {
+color: #FFFFFF;
+}]
 .features {
 
 }
@@ -117,6 +126,11 @@ background-color: #2F303A;
 
     color: #2196F3;
 }
+
+.top-line .conyact-link:hover {
+    color: #188ce8;
+}
+
 .contact-link1 {
     
     font-family: 'Roboto';
