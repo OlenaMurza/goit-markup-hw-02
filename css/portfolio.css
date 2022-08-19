@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
         position: relative;
+        text-decoration: none;
        
 }
 
@@ -10,14 +11,14 @@ body {
 .top-line {
     background-color: #ECECEC;
     background: #FFFFFF;
+    text-decoration: none;
 }
 
 .logo .logo_header {
-    
-    
+       
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -26,11 +27,10 @@ body {
 }
 
 .logo_header1 {
-    font-family: 'Raleway';
-    font-style: normal;
+  
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -39,49 +39,98 @@ body {
 }
 
 .logo_header2 {
-    font-family: 'Raleway';
-    font-style: normal;
+ 
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.link-item {
 
-.button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,1;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    text-decoration: none;
+
+    color: #757575;
+}
+
+.nav .contact-list {
+list-style-type: none;
+width: 285px;
+height: 16px;
+}
+   
+/*portfolio*/
+
+.group.btn-item: {
     background-color: #F5F4FA;
-    font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1,6;
 /* identical to box height, or 162% */
+
 
 text-align: center;
 letter-spacing: 0.03em;
+border: 0;
 }
 
-.button1 {
-    background-color: #2196F3;
-
-}
-
-.button1:hover {
+.group .btn1:hover {
     background-color: #188ce8;
 }
+
+/*project*/
+
+.list-item .project-img {
+
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1130px;
+
+    background: url(2910404.jpg);
+}
+
+.project-title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121;
+}
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height:1,9;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*footer*/
 
 .contact {
     background-color: #2F303A;
 }
 
 .addres {
-    font-family: 'Roboto';
-        font-style: normal;
+font-family: 'Roboto';
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1,7;
+        text-decoration: none;
         /* or 171% */
     
         letter-spacing: 0.03em;    
@@ -89,49 +138,58 @@ letter-spacing: 0.03em;
 }
 
 .contact-link {
-        font-family: 'Roboto';
+    font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1,1;
         letter-spacing: 0.02em;
         text-decoration-line: underline;
+        text-decoration: none;
     
         color: #757575;
 }
 
+
 .contact-link1 {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
-       color: #757575;
-}
-.contact-link2 {
-    font-family: 'Roboto';
+font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
+    text-decoration: none;
     /* or 171% */
 
     letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
 
+.contact-link1:hover {
+    color: #2196F3;
+}
+
+.contact-link2:focus {
     color: #FFFFFF;
 }
 
-.contact-link3 {
-    font-family: 'Roboto';
+.contact-link1 {
+font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
+    text-decoration: none;
     /* or 171% */
 
     letter-spacing: 0.03em;
 
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-link2:hover {
+    color: #2196F3;
+}
+
+.contact-link2:focus {
     color: #FFFFFF;
 }
