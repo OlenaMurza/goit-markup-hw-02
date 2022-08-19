@@ -2,6 +2,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     position: relative;
          width: 1600px;
         height: 2350px;
@@ -100,12 +101,13 @@ body {
       }
 
 .button {
-        background-color: #2196f3
+    cursor: pointer;
+    background-color: #2196f3
 }
 
-.button:hover {
+.button: hover {
     background-color: #188ce8;
-}
+}    
 
 .button .text {
 color: #FFFFFF;
@@ -225,7 +227,11 @@ background-color: #2F303A;
 
 .top-line .conyact-link:hover {
     color: #188ce8;
-}
+    }
+
+ .contact-link3:focus {
+            color: #FFFFFF;
+        }
 
 .contact-link2 {
     font-family: 'Roboto';
@@ -241,6 +247,10 @@ background-color: #2F303A;
 
 .contact-link2:hover {
     color: #2196F3;
+}
+
+.contact-link3:focus {
+    color: #FFFFFF;
 }
 
 .contact-link3 {

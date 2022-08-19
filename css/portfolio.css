@@ -1,6 +1,10 @@
+
+    
+
 body {
     font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
+        font-family: inherit;
         position: relative;
         text-decoration: none;
        
@@ -11,6 +15,15 @@ body {
 .top-line {
     background-color: #ECECEC;
     background: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav .nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,1;
+    letter-spacing: 0.02em;
+    color: #212121;
     text-decoration: none;
 }
 
@@ -49,15 +62,20 @@ body {
     color: #FFFFFF;
 }
 .link-item {
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1,1;
     letter-spacing: 0.02em;
-    text-decoration-line: underline;
     text-decoration: none;
 
     color: #757575;
+}
+
+.link-item:hover {
+    color: #188ce8;
+}
+.btn {
+    color: #2196F3;
 }
 
 .nav .contact-list {
@@ -68,18 +86,9 @@ height: 16px;
    
 /*portfolio*/
 
-.group.btn-item: {
+.section .btn-item: {
     background-color: #F5F4FA;
 
-font-weight: 500;
-font-size: 16px;
-line-height: 1,6;
-/* identical to box height, or 162% */
-
-
-text-align: center;
-letter-spacing: 0.03em;
-border: 0;
 }
 
 .group .btn1:hover {
@@ -168,11 +177,11 @@ color: rgba(255, 255, 255, 0.6);
     color: #2196F3;
 }
 
-.contact-link2:focus {
+.contact-link1:focus {
     color: #FFFFFF;
 }
 
-.contact-link1 {
+.contact-link2 {
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
