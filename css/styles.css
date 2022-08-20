@@ -1,65 +1,34 @@
 
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: inherit;
-    position: relative;
-         width: 1600px;
-        height: 2350px;
-
 }
 
 /* top-line */
 
 .top-line {
-    background-color: #ECECEC;
-        position: absolute;
-        width: 1600px;
-        height: 80px;
-        left: 0px;
-        top: 0px;    
-}
-
-.logo_header {
-    text-decoration: none;
-}
-.logo_header {
-      
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1,2;
-        /* identical to box height */
-    
-        letter-spacing: 0.03em;
-    
-        color: #2196F3;
-    }
-.logo_header1 {
-
-
-    
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,2;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-
-    color: #000000;
-}
-.logo_header2 {
   
+        }
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
+    text-decoration: none;
         font-weight: 700;
         font-size: 26px;
-        line-height: 1,2;
-        /* identical to box height */
-    
-        letter-spacing: 0.03em;
-    color: #FFFFFF;
+        line-height: 1.2;
+        color: #000000; 
+        letter-spacing: 3%
 }
+
+.logo_header {
+    color: #2196F3;
+    }
+
 
 .list_item {
     color: #2196F3;  
+    text-decoration: none;
 }
 
 .list-item1 {
@@ -70,26 +39,27 @@ body {
 .contact-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #2196F3;
+    text-decoration: none;
     }
 
 .contact-link:hover {
-    color: #FFFFFF;
+color: #212121;
+   
 }
-
-
 .contact-link1 {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
 .contact-link1:hover {
-    color: #2196F3;
+    color: #212121;
 }
 
 /* header */
@@ -98,19 +68,30 @@ body {
     background-color: #2F303A;
     color: #FFFFFF;
     padding-top: 200px;
-      }
+    font-weight: 900px;
+    font size: 44px; 
+    line-height: 1.4;
+    }
 
 .button {
     cursor: pointer;
-    background-color: #2196f3
+    background-color: #2196f3;
+    font-weight: 200;
+    font-size: 16px; 
+    line-height: 1.8px; 
+    letter-spacing: 6%;
 }
 
-.button: hover {
+.button:hover {
     background-color: #188ce8;
 }    
 
 .button .text {
 color: #FFFFFF;
+font-size: 16px; 
+line-height: 30px;
+line-height: 1.8;
+letter-spacing: 6%
 }
 
 /*section*/
@@ -122,16 +103,16 @@ color: #FFFFFF;
 .feature-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
 .text {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7px;
+    line-height: 146%
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -147,40 +128,37 @@ color: #FFFFFF;
 }
 
 .work-img {
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 1058px;
+offset: drop shadow;
+radius: 4px;
+offset: 0px, 4px rgba(0, 0, 0, 0.25)
 }
 
 /*team*/
 
 .team {
 background-color: #F5F4FA;
+offset: Drop shadow;
+radius: 4px; 
 }
 
-.tiam-title {
+.team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
 .team-item .team-img {
-    width: 270px;
-        height: 260px;
-        left: 215px;
-        top: 1632px;
-    
-        background: url(4853.jpg);
-        border-radius: 0px;
+        
+    background: url(4853.jpg);
+    border-radius: 0px;
 }
 
-.team-sujest {
+.team-subjest {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,1px;
+    line-height: 1.1px;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #212121;
@@ -189,13 +167,21 @@ background-color: #F5F4FA;
 .team-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,2;
+    line-height: 1.2;
     /* identical to box height */    
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 /*footer*/
+.logo_header2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
 .contact {
 background-color: #2F303A;
@@ -206,7 +192,7 @@ background-color: #2F303A;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -219,7 +205,7 @@ background-color: #2F303A;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 
     color: #2196F3;
@@ -238,11 +224,12 @@ background-color: #2F303A;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7x;
+    line-height: 1.7x;
     /* or 171% */
 
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .contact-link2:hover {
@@ -258,10 +245,11 @@ background-color: #2F303A;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .contact-link3:hover {

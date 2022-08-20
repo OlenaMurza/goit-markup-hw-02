@@ -2,7 +2,6 @@
     
 
 body {
-    font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
         font-family: inherit;
         position: relative;
@@ -18,70 +17,56 @@ body {
     text-decoration: none;
 }
 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+    letter-spacing: 3%
+}
+
+.logo_header {
+    color: #2196F3;
+}
+
 .nav .nav-list {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
 }
 
-.logo .logo_header {
-       
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,2;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-
-    color: #2196F3;
-}
-
-.logo_header1 {
-  
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,2;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-
-    color: #000000;
-}
-
-.logo_header2 {
- 
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,2;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-.link-item {
+.group .link-item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
-
     color: #757575;
 }
 
 .link-item:hover {
-    color: #188ce8;
-}
-.btn {
-    color: #2196F3;
+    color: #212121;
 }
 
-.nav .contact-list {
-list-style-type: none;
-width: 285px;
-height: 16px;
+.btn-item .btn {
+    border-style: shadow-middle;
+    offset: drop-shadow; 
+    radius: 2px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    }
+
+.button {
+offset: drop-shadow;
+radius: 4px;
+inset: 0px, 4px rgba(0, 0, 0, 0.25)
 }
    
 /*portfolio*/
@@ -98,31 +83,24 @@ height: 16px;
 /*project*/
 
 .list-item .project-img {
-
-    width: 370px;
-    height: 294px;
-    left: 1015px;
-    top: 1130px;
-
+    margin-block: 370px 400px;
+    margin-block: inherit;
     background: url(2910404.jpg);
 }
 
 .project-title {
-    font-weight: 700;
+        font-weight: 700;
         font-size: 18px;
         line-height: 2;
         /* identical to box height, or 200% */
-    
         letter-spacing: 0.06em;
-    
         color: #212121;
 }
 .text {
     font-weight: 400;
     font-size: 16px;
-    line-height:1,9;
+    line-height:1.9;
     /* identical to box height, or 188% */
-    
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -133,12 +111,22 @@ height: 16px;
     background-color: #2F303A;
 }
 
+.logo_header2 {
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
 .addres {
-font-family: 'Roboto';
-    font-style: normal;
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 1,7;
+        line-height: 1.7;
         text-decoration: none;
         /* or 171% */
     
@@ -151,7 +139,7 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,1;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-decoration-line: underline;
         text-decoration: none;
@@ -165,7 +153,7 @@ font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     text-decoration: none;
     /* or 171% */
 
