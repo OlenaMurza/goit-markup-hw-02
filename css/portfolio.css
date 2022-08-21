@@ -3,6 +3,9 @@
 body {
         font-family: 'Roboto', sans-serif;
 }
+h1 {
+    display: none;
+}
 
 ul {
     list-style-type: none;
