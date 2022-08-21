@@ -2,7 +2,10 @@
 
 body {
         font-family: 'Roboto', sans-serif;
-       
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* top-line */
@@ -63,27 +66,33 @@ body {
 
 /*portfolio*/
 
-.btn-item {
-    offset: drop-shadow;
-    radius: 4px;
+.group .button { 
+    border-radius: 4px;
     inset: 0px, 4px rgba(0, 0, 0, 0.25);
     color: #F5F4FA;
 }
 
-.btn-item:hover {
- color:  #188ce8;
+.button-item:hover {
+ cursor: pointer;
+ background-color: #188ce8;
 }
 
-.btn-item:focus {
+.button-item:focus {
     color:#2196F3;
 }
 
 /*project*/
 
-.list-item .project-img {
+.list-item {
+    box-sizing: border-box; 
+    border: 1px solid #EEEEEE;
+}
+
+.project-img {
     margin-block: 370px 400px;
     margin-block: inherit;
     background: url(2910404.jpg);
+
 }
 
 .project-title {
