@@ -33,7 +33,7 @@ ul {
     color: #2196F3;
 }
 
-.nav-list-item {
+.nav .nav-list {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -41,13 +41,13 @@ ul {
     letter-spacing: 0.02em;
     color: #212121;
 }
-
-.nav-list-item:hover{
+.nav .nav-list:hover, 
+.nav .nav-list:focus {
     color: #2196F3;
 }
 
-.nav-list-item:focus {
-    color: #757575;
+.nav .nav-list.current {
+    color: #2196F3;
 }
 
 .link-item {
@@ -59,29 +59,33 @@ ul {
     color: #757575;
 }
 
-.link-item:hover {
-    color: #2196F3;
-}
-
-.link-item:focus {
-    color: #757575;
-}
-
 /*portfolio*/
 
-.group .button { 
-    border-radius: 4px;
-    inset: 0px, 4px rgba(0, 0, 0, 0.25);
-    color: #F5F4FA;
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    border: none;
 }
 
-.button-item:hover {
- cursor: pointer;
- background-color: #188ce8;
-}
+.button-item {
+    font-family: inherit;
+    color: #212121;
+    cursor: pointer;
+   }
 
 .button-item:focus {
-    color:#2196F3;
+background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.button-item:active {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 /*project*/
